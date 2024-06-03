@@ -1,5 +1,4 @@
-* {
-    font-family: 'Trebuchet MS', sans-serif;
+* { 
     background-color: #1F2937;
     
 }
@@ -24,7 +23,7 @@
     font-weight: bold;
     justify-content: left;
 }
-.link {
+.header a {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
@@ -61,7 +60,7 @@ h1 {
     background-color: #1F2937;
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: bold;
     flex: 1;
     display: flex;
 } 
@@ -90,7 +89,7 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-.box {
+.infos .box {
     background-color: white;
     padding: 0 240px 0 240px;
     margin: 0 60px 0 60px;
@@ -98,6 +97,7 @@ h1 {
 .box.one {
     color: #1F2937;
     font-size: 36px;
+    font-weight: bold;
     margin-top: 45px;
     margin-bottom: 45px;
 }
@@ -125,4 +125,80 @@ h1 {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
+}
+
+
+
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    
+    p1 {
+        color: #1F2937;
+        font-size: 36px;
+        font-style: italic;
+        background-color: #E5E7EB;
+        margin: 120px 320px 0px 320px;
+        
+    }
+    p2 {
+        background-color: #E5E7EB;
+        text-align: right;
+        font-size: 24px;
+        color: #1F2937;
+        font-weight: bold;
+        margin-bottom: 120px;
+        margin-right: 320px;
+    }
+}
+
+.action{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    .box {
+        background-color: #3882F6;
+        display: flex;
+        align-items: center;
+        gap: 90px;
+        border-radius: 12px;
+        margin: 120px 320px 120px 320px;
+        padding : 30px 90px 30px 90px;
+    }
+    p{ 
+        background-color: #3882F6;
+        color: white;
+        font-size: 18px;
+        p1{
+            background-color: #3882F6;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+    }
+    a{
+        display: flex;
+        color: #F9FAF8;
+        background-color: #3882F6;
+        padding: 6px 24px 6px 24px;
+        align-items: center;
+        font-weight: bold;
+        border-radius: 6px;
+        border: 2px solid white;
+    }
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    p{
+        background-color: #1F2937;
+        font-size: 18px;
+        color: #E5E7EB;
+    }
 }
